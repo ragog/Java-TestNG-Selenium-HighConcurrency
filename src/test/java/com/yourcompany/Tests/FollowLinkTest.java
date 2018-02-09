@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.rmi.UnexpectedException;
+import java.util.Random;
 
 /**
  * Created by mehmetgerceker on 12/7/15.
@@ -34,6 +35,11 @@ public class FollowLinkTest extends TestBase {
         page.followLink();
 
         Assert.assertFalse(page.isOnPage());
+
+        Random rand = new Random();
+
+        Assert.assertTrue(rand.nextInt(40) != 0);
+
     }
 
 }
