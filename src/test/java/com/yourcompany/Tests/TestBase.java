@@ -74,7 +74,7 @@ public class TestBase implements SauceOnDemandSessionIdProvider, SauceOnDemandAu
                 new Object[]{"firefox", "56.0", "Windows 10"},
                 new Object[]{"MicrosoftEdge", "13.10586", "Windows 10"},
                 new Object[]{"chrome", "62.0", "Windows 10"},
-                new Object[]{"safari", "11.0", "OS X 10.13"},
+                new Object[]{"safari", "11.1", "OS X 10.13"},
                 new Object[]{"firefox", "55.0", "Windows 10"},
                 new Object[]{"chrome", "61.0", "Windows 10"},
                 new Object[]{"firefox", "54.0", "Windows 10"},
